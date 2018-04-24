@@ -1,0 +1,96 @@
+#header{
+    height: 32px;
+    background-color: #f2f2f2;
+    font-size: 12px;
+    line-height: 32px;
+    color: #999;
+    font-family: "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+}
+#header p{
+    color: #999;
+    width: 300px;
+}
+#header a{
+    color: #999;
+}
+#login-info{
+    float: left;
+    width: 218px;
+    height: 100%;
+}
+#login-info span{
+    margin-left: 50px;
+}
+#login-info .sn-login{
+    padding-left: 20px;
+    padding-right: 10px;
+}
+#login-info .sn-register{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#login-info a:hover{
+    color: #f00;
+}
+#header .menu-hd:hover{
+    color: #f00;
+}
+#quick-menu{
+    float: right;
+    position: relative;
+}
+#quick-menu li{
+    float: left;
+    padding: 0 14px;
+}
+#quick-menu .icon-gouwuche{
+    color: #f00;
+    font-size: 12px;
+}
+#quick-menu .icon-44{
+    color: #f00;
+    font-size: 12px;
+}
+#quick-menu .icon-liebiao{
+    color: #f00;
+    font-size: 12px;
+}
+#quick-menu .triangle{
+    position: relative;
+}
+#quick-menu .triangle::after{
+    content: '';
+    width: 0px;
+    border-style: solid;
+    border-color: #999 transparent transparent transparent;
+    position: absolute;
+    top: 16px;
+    right: 6px;
+    transform-origin: 1.6px 0.8px;
+    transition: none;
+}
+#quick-menu .triangle:hover::after{
+    transform: rotate(180deg);
+    transition: transform .2s ease;
+}
+#mytaobao a{
+    display: block;
+}
+#quick-menu .triangle:hover{
+    background-color: #fff;
+}
+#mytaobao{
+    width: 100px;
+    position: absolute;
+    left: -1px;
+    bottom: -65px;
+    display: none;
+}
+#quick-menu .triangle:hover ul{
+    display: block;
+}
+
+
+
+
+
