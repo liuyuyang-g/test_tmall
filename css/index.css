@@ -34,6 +34,7 @@
 }
 #header .menu-hd:hover{
     color: #f00;
+    text-decoration: underline;
 }
 #quick-menu{
     float: right;
@@ -88,6 +89,10 @@
 }
 #quick-menu .triangle:hover ul{
     display: block;
+}
+#quick-menu .tr-menu-hd:hover{
+    color: #f00;
+    text-decoration: underline;
 }
 
 
