@@ -1,5 +1,6 @@
 #header{
     height: 32px;
+    width: 1600px;
     background-color: #f2f2f2;
     font-size: 12px;
     line-height: 32px;
@@ -40,6 +41,7 @@
 #quick-menu{
     float: right;
     position: relative;
+    width:800px;
 }
 #quick-menu li{
     float: left;
@@ -110,6 +112,7 @@
 }
 #search .wrapper{
     position: relative;
+    width: 1600px;
 }
 #search .search-content{
     width: 628px;
@@ -206,7 +209,7 @@
 #category{
     position: absolute;
     left: 120px;
-    top: -36px;
+    top: -40px;
     background-color: rgba(0, 0, 0, .55);
 }
 #category li{
@@ -237,6 +240,71 @@
 #category a{
     margin-left: 10px;
 }
+
+#floor .floor1{
+    width:1500px;
+}
+#floor .floor1 img{
+    width: 214px;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+#floor ul{
+    float: right;
+    margin-right: 250px;
+    margin-top: 15px;
+}
+#floor .hot-word li{
+    float: left;
+    padding-right: 10px;
+}
+#floor .hot-word a{
+    color: #000;
+    font-size: 14px;
+}
+#floor li:hover{
+    text-decoration: underline;
+}
+#floor .floor-line img{
+    width: 235px;
+    margin-left: 120px;
+}
+#floor .floor-line{
+    position: relative;
+}
+#floor .left-title-wrap{
+    position: absolute;
+    left: 120px;
+    bottom: 140px;
+    background: rgba(0,0,0,.6);
+    width: 70px;
+    height: 64px;
+}
+#floor .left-title{
+    font-size: 18px;
+    display: inline-block;
+    width: 36px;
+    line-height: 32px;
+    margin-left: 16px;
+    color: #fff;
+}
+#floor .right-title-wrap{
+    position: absolute;
+    left:190px;
+    bottom: 140px;
+    background: rgba(0,0,0,.6);
+    width: 128px;
+    height: 64px;
+}
+#floor .right-title{
+    font-size: 18px;
+    display: inline-block;
+    line-height: 32px;
+    margin-left:16px;
+    color: #fff;
+}
+
+
 
 
 
